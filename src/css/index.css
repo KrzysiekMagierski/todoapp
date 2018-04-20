@@ -2,3 +2,30 @@ p#start-info {
   font-size: 3em;
   text-align: center;
 }
+
+button {
+  border-radius: 50%;
+  background-color: rgb(157, 157, 235);
+  color: white;
+  width:30px;
+  height:30px;
+  text-align: center;
+  margin:10px;
+  
+}
+
+.firstDiv {
+  border: 1px solid black;
+  margin: 20px;
+  width:30%
+}
+
+.secondDiv {
+  border: 1px solid black;
+  margin: 20px;
+  width:30%
+}
+
+input {
+  margin: 20px 10px 20px 20px;
+}
