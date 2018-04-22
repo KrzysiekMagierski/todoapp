@@ -1,31 +1,54 @@
+* {
+  display: block;
+}
+
 p#start-info {
   font-size: 3em;
   text-align: center;
 }
 
 button {
+  display: inline;
   border-radius: 50%;
+  border:none;
   background-color: rgb(157, 157, 235);
   color: white;
-  width:30px;
-  height:30px;
+  width:40px;
+  height:40px;
+  padding: 1px;
+  font-size: 1.9em;
   text-align: center;
   margin:10px;
   
 }
 
 .firstDiv {
+  float: left;
   border: 1px solid black;
   margin: 20px;
   width:30%
 }
 
 .secondDiv {
+  float: left;
   border: 1px solid black;
   margin: 20px;
   width:30%
 }
 
 input {
+  display: inline;
+  padding: 10px;
   margin: 20px 10px 20px 20px;
+}
+
+.delete {
+  display: inline;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  margin:5px;
+  text-align: center;
+  font-size: 10px;
 }
